@@ -3,6 +3,7 @@
 # is to simulate different real-world scenarios without changing the algorithm configuration.
 from typing import Dict, List, Literal, Optional
 import random
+import os
 from utils.types import ConfigType
 
 # from utils.config_utils import get_sliding_window_support, get_device_ids
@@ -159,7 +160,7 @@ CIAR10_DPATH = "./datasets/imgs/cifar10/"
 
 NUM_COLLABORATORS = 1
 
-DUMP_DIR = "/Users/aopwtf/Desktop/sonar/dump/"
+DUMP_DIR = "/mas/camera/Experiments/SONAR/abhi"
 
 mpi_system_config: ConfigType = {
     "exp_id": "",
