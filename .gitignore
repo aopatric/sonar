@@ -8,9 +8,6 @@ data/
 notes.txt
 removeme*.png
 
-# new default dump folder
-/dump
-
 # Byte-compiled / optimized / DLL files
 **/__pycache__/
 *.py[cod]
