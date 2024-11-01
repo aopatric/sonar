@@ -158,7 +158,8 @@ CIFAR10_DSET = "cifar10"
 CIAR10_DPATH = "./datasets/imgs/cifar10/"
 
 NUM_COLLABORATORS = 1
-DUMP_DIR = "/mas/camera/Experiments/SONAR/abhi/"
+
+DUMP_DIR = "/Users/aopwtf/Desktop/sonar/dump/"
 
 mpi_system_config: ConfigType = {
     "exp_id": "",
